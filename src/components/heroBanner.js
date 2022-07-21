@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../App.css";
 import home_banner from "../assets/images/home_banner.jpg";
 
@@ -6,7 +6,7 @@ const HeroBanner = () => {
   return (
     <>
       <section className="">
-        <img className="banner-img" src={home_banner} />
+        <img className="banner-img" alt="banner" src={home_banner} />
 
         {/* <div className='banner-text container'>
                 <h1>Lorem ipsum</h1>

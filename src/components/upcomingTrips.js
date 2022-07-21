@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../App.css";
 import calendar from "../assets/icons/calendar.png";
 import Counts from "./counts";

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Dates from "../assets/images/dates.png";
 
 const Counts = () => {
@@ -53,7 +53,7 @@ const Counts = () => {
       </section>
 
       <section className="date-bg">
-        <img className="bg-img" src={Dates} />
+        <img className="bg-img" alt="dates" src={Dates} />
         <div className="date-container mb-column container d-flex justify-content-between align-items-center">
           <div className="date">
             <p className="date-text">January 20, 2011 </p>

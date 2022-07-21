@@ -32,7 +32,7 @@ const Header = () => {
                 aria-label="Search"
               />
               <button className="btn btn-nav" type="submit">
-                <img src={Search} />
+                <img alt="search" src={Search} />
               </button>
               <i class="icomoon icon-search"></i>
             </form>

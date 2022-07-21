@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Option1 from "../assets/images/options1.png";
 const LeftOption = () => {
   return (
@@ -7,7 +7,7 @@ const LeftOption = () => {
         <h2 className="option-heading">Lorem ipsum</h2>
         <div className="left-option ms-0">
           <div className="d-flex mb-column left-option-container ">
-            <img src={Option1} />
+            <img alt="option1" src={Option1} />
             <div className="option-card">
               <h3>Quote of the month</h3>
               <p>
@@ -19,7 +19,7 @@ const LeftOption = () => {
             </div>
           </div>
           <div className="d-flex mb-column left-option-container">
-            <img src={Option1} />
+            <img about="option2" src={Option1} />
             <div className="option-card">
               <h3>Quote of the month</h3>
               <p>
@@ -31,7 +31,7 @@ const LeftOption = () => {
             </div>
           </div>
           <div className="d-flex mb-column left-option-container">
-            <img src={Option1} />
+            <img alt="option3" src={Option1} />
             <div className="option-card">
               <h3>Quote of the month</h3>
               <p>

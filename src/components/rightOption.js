@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import CardCal from "../assets/images/card_cal.png";
 import Right from "../assets/icons/right-angle.png";
 
@@ -11,13 +11,13 @@ const RightOption = () => {
           <p>
             view all{" "}
             <span className="right-bg">
-              <img src={Right} />
+              <img alt="right" src={Right} />
             </span>
           </p>
         </div>
         <div className="right-option">
           <div className="d-flex mb-column right-option-container ">
-            <img className="right-img" src={CardCal} />
+            <img alt="cardcal" className="right-img" src={CardCal} />
             <div className="option-card">
               <h3>Quote of the month</h3>
               <p>
